@@ -7,15 +7,10 @@ var model = {
 	
 	startRollingNumbers : function(){
 		
-<<<<<<< HEAD
-		if(model.currentField == 10)
-			return false;
-		
-=======
 		if(model.currentField == 10){
 			return false;
 		}
->>>>>>> 887f57bf199f211e8cdc2880c90048a5cce2961b
+
 		numbersInterval = setInterval(function(){
 	    	 var value = getNumber();
 			 view.setChoosenNumber(value);
