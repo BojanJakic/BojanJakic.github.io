@@ -6,6 +6,10 @@ var model = {
 	
 	
 	startRollingNumbers : function(){
+		
+		if(model.currentField == 10)
+			return false;
+		
 		numbersInterval = setInterval(function(){
 	    	 var value = getNumber();
 			 view.setChoosenNumber(value);
@@ -27,6 +31,7 @@ var model = {
     
     increaseCurrentField : function(){
     	model.currentField++;
+		
     },
 	
 	addUsersInput : function(lastInput){
