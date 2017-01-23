@@ -62,9 +62,13 @@ var controller = {
 	},
 	
 	handleDoneButton : function(){
+<<<<<<< HEAD
 		console.log(model.currentField)
 		if(model.currentField < 10){
 			
+=======
+		if(model.currentField <= 10){
+>>>>>>> 887f57bf199f211e8cdc2880c90048a5cce2961b
 			return false;
 		}
      controller.final();
