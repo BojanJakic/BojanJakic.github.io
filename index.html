@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<script src="https:ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="header">Play&nbsp;&nbsp;Numbers</div>
+
+<div id="container">
+
+<div class="target_container">
+<p>Target Number:<span>Time:</span></p>
+<div id="1" class="target_number">?</div>
+<div id="2" class="target_number">?</div>
+<div id="3" class="target_number">?</div>
+<div id="timer">60</div>
+</div>
+
+<br><br>
+
+	<div class="number_container">
+	<p>Available Numbers:</p>
+		<div id="4" class="number">?</div>
+		<div id="5" class="number">?</div>
+		<div id="6" class="number">?</div>
+		<div id="7" class="number">?</div>
+		<div id="8" class="number">??</div>
+		<div id="9" class="number">??(?)</div>
+</div>
+
+
+<div class="operator_container">
+<p>Operators:</p>
+<div class="operator">+</div>
+<div class="operator">-</div>
+<div class="operator">*</div>
+<div class="operator">/</div>
+<div class="operator">(</div>
+<div class="operator">)</div>
+</div>
+<br><br>
+	<div class="counting">
+ 	<div id="users_input"></div>
+ 	</div>
+ 	<button id="delete">DELETE</button>
+ 	<br><br><br>
+ 	
+ 	<div class="notification_container">
+ 	<div class="notification_image"></div>
+    <div class="notification_text"></div>
+ 	</div>
+<!-- <br> -->
+
+<div id="buttons">
+ 	<button id="start">START GAME</button> 
+	<button id="stop">STOP NUMBER</button>
+	<button class="done">END GAME</button>
+</div>
+<br>
+<div id="newgame"><button >PLAY&nbsp;AGAIN</button></div>
+	
+	<audio id="sounds"  style="display:none"></audio>
+	<audio id="sounds2"  style="display:none"></audio>
+	</div>
+
+ 	<script src="js/controller.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/model.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/view.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/helper.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/events.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/audio.js" type="text/javascript" charset="utf-8"></script>
+ 	<script src="js/start.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
