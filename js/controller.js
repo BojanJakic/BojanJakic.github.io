@@ -62,8 +62,9 @@ var controller = {
 	},
 	
 	handleDoneButton : function(){
-
-		if(model.currentField <= 10){
+        console.log(model.currentField)
+		
+		if(model.currentField < 10){
 
 			return false;
 		}
